@@ -1,5 +1,5 @@
 <template>
-    <div style="background: #fafafa" id="planes">
+    <div style="background: #fafafa">
         <v-container id="planes">
             <v-row>
                 <v-col md="12" aling="center" justify="center">
@@ -17,7 +17,7 @@
                                 <ul>
                                     <li v-for="(item, index) in slide.benefits" :key="index">
                                         <span>{{ item.name }}</span>
-                                        <v-tooltip top style="background: ##DCE9FF">
+                                        <v-tooltip top >
                                             <template v-slot:activator="{ on, attrs }">
                                                 <img src="../../../assets/img/info.png" v-bind="attrs" v-on="on" style="float: right; margin-top: 7px;" alt="">
                                             </template>
@@ -60,7 +60,7 @@
                                 <ul>
                                     <li v-for="(item, index) in slide.benefits" :key="index">
                                         <span>{{ item.name }}</span>
-                                        <v-tooltip top style="background: ##DCE9FF">
+                                        <v-tooltip top >
                                             <template v-slot:activator="{ on, attrs }">
                                                 <img src="../../../assets/img/info.png" v-bind="attrs" v-on="on" style="float: right; margin-top: 7px;" alt="">
                                             </template>
@@ -96,10 +96,10 @@ export default {
                 id: 1,
                 title: 'Plan Individual',
                 benefits: [
-                    { id: 1, name: 'Telemedicina', description: '' },
-                    { id: 2, name: 'Citas con especialistas', description: '' },
-                    { id: 3, name: 'Asistencia Oftalmológica', description: '' },
-                    { id: 4, name: 'Asistencia Odontolígica', description: '' },
+                    { id: 1, name: 'Telemedicina', description: 'Orientación médica, 24 hrs los 365 días del año por chat, teléfono o videollamada.' },
+                    { id: 2, name: 'Citas con especialistas', description: 'Concreta cita con Médicos Especialistas sin límite de uso y a precios preferenciales.' },
+                    { id: 3, name: 'Asistencia Oftalmológica', description: 'Accede a diversos descuentos, así como costos preferentes para la adquisición de anteojos graduados. ' },
+                    { id: 4, name: 'Asistencia Odontolígica', description: 'Dispones de 2 limpiezas y 2 consultas de diagnóstico sin coto por año. Con descuentos exclusivos con prestadores de servicios (radiografías, endodoncia, cosmética dental, etc)' },
                     { id: 5, name: 'Servicio de Ambulancia', description: 'En caso de accidente o enfermedad contaras con hasta 2 Eventos sin costo de ambulancia por año' }
                 ],
                 caracteristics: 'Gratis por 30 días',
@@ -112,11 +112,11 @@ export default {
                 id: 2,
                 title: 'Plan Familiar',
                 benefits: [
-                    { id: 1, name: 'Telemedicina', description: '' },
-                    { id: 2, name: 'Citas con especialistas', description: '' },
-                    { id: 3, name: 'Asistencia Oftalmológica', description: '' },
-                    { id: 4, name: 'Asistencia Odontolígica',description: '' },
-                    { id: 5, name: 'Servicio de Ambulancia',description: 'En caso de accidente o enfermedad contaras con hasta 2 Eventos sin costo de ambulancia por año' }
+                    { id: 1, name: 'Telemedicina', description: 'Orientación médica, 24 hrs los 365 días del año por chat, teléfono o videollamada.' },
+                    { id: 2, name: 'Citas con especialistas', description: 'Concreta cita con Médicos Especialistas sin límite de uso y a precios preferenciales.' },
+                    { id: 3, name: 'Asistencia Oftalmológica', description: 'Accede a diversos descuentos, así como costos preferentes para la adquisición de anteojos graduados. ' },
+                    { id: 4, name: 'Asistencia Odontolígica', description: 'Dispones de 2 limpiezas y 2 consultas de diagnóstico sin coto por año. Con descuentos exclusivos con prestadores de servicios (radiografías, endodoncia, cosmética dental, etc)' },
+                    { id: 5, name: 'Servicio de Ambulancia', description: 'En caso de accidente o enfermedad contaras con hasta 2 Eventos sin costo de ambulancia por año' }
                 ],
                 promotion: 'Titular + máximo 3 familiares',
                 caracteristics: 'Gratis por 30 días',
