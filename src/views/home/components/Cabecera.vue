@@ -41,9 +41,9 @@
                         <span class="salud">La nueva app de asesoría médica que cuida de tu familia las 24hs del día</span>
                     </v-col>
                     <v-col md="6" style="margin-top: 51px">
-                        <router-link to="/datos" class="deco">
+                        <a href="#planes" class="deco">
                             <v-btn class="medico" ><span class="texto">Obtenla gratis por 30 días</span></v-btn>
-                        </router-link>
+                        </a>
                     </v-col>
                 </v-container>
             </v-img>

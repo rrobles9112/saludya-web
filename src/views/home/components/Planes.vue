@@ -1,5 +1,5 @@
 <template>
-    <div style="background: #fafafa">
+    <div style="background: #fafafa" id="planes">
         <v-container id="planes">
             <v-row>
                 <v-col md="12" aling="center" justify="center">
