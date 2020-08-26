@@ -1,0 +1,32 @@
+.lapiz {
+    background: linear-gradient(144.14deg, #626EFF 16.1%, #2FD1F6 100%);
+    border-radius: 10px;
+    -webkit-clip-path: polygon(0 78%, 100% 70%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22.1%, 100% 0%, 100% 100%, 0% 100%);
+    position: relative;
+    height: 210px;
+    margin-left: 1-2px;
+    margin-top: 98px;
+    width: 1482px;
+}
+
+.foca {
+        margin-top: 1rem;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        font-family: "Morebi Rounded Regular", arial !important;
+        color: #FFFFFF;
+        display: flex;
+        text-align: center;
+        padding: 0;
+        margin-left: 12rem;
+}
+
+.jugo {
+    display: flex;
+    margin-top: 0;
+    margin-left: 21rem;
+}

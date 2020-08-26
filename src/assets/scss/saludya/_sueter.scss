@@ -1,0 +1,417 @@
+.sueter {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #5090FC;
+    margin-top: -20px;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.portugal {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #5090FC;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.tisa {
+    margin-left: 98px;
+}
+
+.aspiar {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5213px;
+    line-height: 33px;
+    text-align: center;
+    color: #878787;
+    font-family: 'Morebi Rounded Regular', arial !important;
+    margin-left: 51px;
+}
+
+.pintar {
+    margin-top: -7px;
+}
+
+.rato {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25);
+    border-radius: 10px;
+    width: 989px;
+    height: 50px;
+    font-family: 'Morebi Rounded Regular', arial !important;
+
+}
+
+.grap {
+    margin-top: -12px;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.especial {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #878787;
+    font-family: 'Morebi Rounded Regular', arial !important;
+    margin-top: 35px;
+}
+
+.email {
+    width: 31px;
+    height: 31px;
+}
+
+.maarg {
+    border: 0.5px solid #AEAEAE;
+    filter: drop-shadow(0px 0px 36px rgba(188, 213, 213, 0.25));
+    border-radius: 7px;
+    height: 50px;
+    max-width: 450px;
+    margin-top: 34px;
+    margin-left: 117px;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.largo {
+    margin-left: 12px;
+}
+
+.pho {
+    margin-top: -9px;
+    margin-left: 122px;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.headerSuscribete {
+    display: block;
+
+    .logoSaludYaSuscribete {
+
+    }
+
+    .logoAxaSuscribete {
+        float: right;
+    }
+}
+
+.headerSuscribeteResponsive {
+    display: none;
+}
+
+.resultado {
+    display: block;
+
+    .titleResultadoResponsive {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #5090FC;
+        margin-top: 54px;
+        margin-bottom: 6px;
+    }
+
+    .descriptionResultadoResponsive {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        color: #5090FC;
+        margin-top: 6px
+            
+        b {
+            margin-left: 5px;
+            font-weight: 800;
+        }
+    }
+
+    .rowInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 64px;
+
+        img {
+            margin-right: 10px
+        }
+    }
+
+    .valorResultadoResponsive {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.55);
+        border-radius: 10px;
+        margin-top: 64px;
+        width: 989px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 35px;
+
+        .planResultadoResponsive {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            color: #878787;
+        }
+
+        .planValorResultadoResponsive {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 40px;
+            color: #878787;
+            text-align: right;
+            float: right;
+            margin-top: -4px;
+        }
+    }
+
+    .titleTusDatosSuscribeteResponsive {
+        padding-top: 32px !important;    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #878787;       
+        margin-bottom: 30px; 
+    }
+
+    .containerDatos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 74px;
+
+        .emailContentSuscribeteResponsive {
+            border: 0.5px solid #AEAEAE;
+            filter: drop-shadow(0px 0px 10px rgba(213, 213, 213, 0.25));
+            border-radius: 10px;
+            margin-bottom: 18px;
+            max-width: 450px;
+            height: 50px;
+            margin-right: 89px;
+    
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+    
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                color: #535353;
+                margin-left: 17px;
+                margin-top: 2px;
+            }
+        }
+    
+        .cellphoneContentSuscribeteResponsive {
+            border: 0.5px solid #AEAEAE;
+            filter: drop-shadow(0px 0px 10px rgba(213, 213, 213, 0.25));
+            border-radius: 10px;
+            max-width: 450px;
+            height: 50px;
+    
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+    
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                color: #535353;
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+.resultadoResponsive {
+    display: none;
+}
+
+.platform {
+    display: block;
+    margin-top: 98px;
+
+    .titleplatformResponsive {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .applePlatformResponsive {
+        margin-right: 158px;
+    }
+}
+
+.platformResponsive {
+    display: none;
+}
+
+@media (min-width: 350px) and (max-width: 1024px){
+    .headerSuscribeteResponsive {
+        display:block;
+
+        .logoSaludYaSuscribete {
+
+        }
+
+        .logoAxaSuscribete {
+            float: right;
+        }
+    }
+
+    .headerSuscribete {
+        display: none;
+    }
+
+    .resultadoResponsive {
+        display: block;
+
+        .titleResultadoResponsive {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 60px;
+            text-align: center;
+            color: #5090FC;
+        }
+
+        .descriptionResultadoResponsive {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            color: #5090FC;
+            margin-bottom: 8px;
+             
+            b {
+                margin-left: 5px;
+                font-weight: 800;
+            }
+        }
+
+        .valorResultadoResponsive {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25);
+            border-radius: 10px;
+            margin-top: 8px;
+
+            .planResultadoResponsive {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 30px;
+                color: #878787;
+            }
+
+            .planValorResultadoResponsive {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 40px;
+                color: #878787;
+                text-align: right;
+                float: right;
+                margin-top: -4px;
+            }
+        }
+
+        .titleTusDatosSuscribeteResponsive {
+            padding-top: 32px !important;            
+        }
+
+        .emailContentSuscribeteResponsive {
+            border: 0.5px solid #AEAEAE;
+            filter: drop-shadow(0px 0px 10px rgba(213, 213, 213, 0.25));
+            border-radius: 10px;
+            margin-bottom: 18px;
+
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                color: #535353;
+                margin-left: 17px;
+                margin-top: 2px;
+            }
+        }
+
+        .cellphoneContentSuscribeteResponsive {
+            border: 0.5px solid #AEAEAE;
+            filter: drop-shadow(0px 0px 10px rgba(213, 213, 213, 0.25));
+            border-radius: 10px;
+
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                color: #535353;
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .resultado {
+        display: none;
+    }
+
+    .platformResponsive {
+        display: block;
+        margin-top: 31px;
+
+        .titleplatformResponsive {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            width: 251px;
+            margin-bottom: 12px;
+        }
+
+        .applePlatformResponsive {
+            margin-right: 15px;
+        }
+    }
+
+    .platform {
+        display: none;
+    }
+}

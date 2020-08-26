@@ -1,0 +1,352 @@
+.reto {
+    background: linear-gradient(139.86deg, #626EFF 8.51%, #2FD1F6 100%);
+    border-radius: 10px;
+    padding: 100px 0;
+    clip-path: polygon(0 -23%, 100% 0%, 100% 70%, 0 90%);
+    height: 430px;
+}
+
+.pila {
+    margin-left: 173px;
+    margin-top: -50px;
+}
+
+.combinacion {
+    margin-top: -40px;
+    margin-left: 530px
+}
+
+.emer {
+    margin-left: 75px; 
+    margin-top: 50px;
+}
+
+.dias {
+    font-family: 'Morebi Rounded Regular', arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: -569px;
+    margin-top: -54px;
+}
+
+.todo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-family: 'Morebi Rounded Regular', arial;
+    margin-left: 172px;
+    margin-top: -17px;
+}
+
+.name {
+    margin-top: -17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #538CFC;
+    font-family: 'Morebi Rounded Regular', arial;
+}
+
+.buton {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px #f3eeeef7;
+    border-radius: 10px;
+    width: 531px;
+    height: 50px;
+}
+
+.ipsum {
+    margin-left: -395px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(83, 83, 83, 0.5);
+    font-family: 'Morebi Rounded Regular', arial !important;
+    text-transform: capitalize;
+}
+
+.mx-4 {
+    border: 0.5px solid rgba(183, 183, 183, 0.5);
+    margin-top: 31px;
+}
+
+.socio {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25);
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+}
+
+.mx-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #535353;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.poli {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #535353;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.trarme {
+    background: #5090FC !important;
+    border-radius: 10px;
+    width: 299px;
+    height: 51px !important;
+    margin-left: 133px;
+}
+
+.lep {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Morebi Rounded Regular', arial !important;
+    text-transform: capitalize;
+    
+}
+
+.headerDatosResponsive {
+    display: none;
+}
+
+.headerDatos {
+    display: block;
+
+    .logoSaludYaSuscribete {
+
+    }
+
+    .logoAxaSuscribete {
+        float: right;
+    }
+
+    .messageHeaderDatosResponsive {
+        margin-top: 70px;
+        margin-left: -45px;
+
+        img {
+            margin-right: 31px;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 60px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+    .titlePage {
+        margin-top: -15px;
+        margin-left: -45px;
+
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 60px;
+            color: #FFFFFF;
+            margin-top: -30px;
+        }
+    }
+}
+
+.formWeb {
+    display: block;
+    margin-top: -10px;
+
+    label {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #538CFC;
+    }
+
+    .nameForm {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25);
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .nameForm::placeholder{
+        color: rgba(83, 83, 83, 0.5);;
+        padding-left: 22px;
+    }
+
+    .dayForm {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25);
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .dayForm::placeholder{
+        color: rgba(83, 83, 83, 0.5);;
+        padding-left: 22px;
+        text-align: center;
+    }
+
+    .cardDatos {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25) !important;
+        border-radius: 10px;
+    }
+
+    .checkboxDatos input{
+        background: #FFFFFF;
+        border: 0.5px solid #B7B7B7 !important;
+        box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25) !important;
+        border-radius: 1px;
+    }
+
+    .checkboxDatos label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #535353;
+    }
+
+    .trarme {
+        background: #5090FC !important;
+        border-radius: 10px;
+        width: 299px;
+        height: 51px !important;
+        margin-left: 0px;
+    }
+}
+
+.formResponsive {
+    display: none;
+}
+
+
+@media (min-width: 350px) and (max-width: 1024px) {
+    .headerDatosResponsive {
+        display: block;
+
+        .logoSaludYaSuscribete {
+        }
+
+        .logoAxaSuscribete {
+            float: right;
+        }
+
+        .messageHeaderDatosResponsive {
+
+            img {
+                margin-right: 19px;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+
+        .titlePage {
+            margin-top: -5px;
+
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .headerDatos {
+        display: none;
+    }
+
+    .formResponsive {
+        display: block;
+
+        label {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            color: #538CFC;
+        }
+
+        .nameForm {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25);
+            border-radius: 10px;
+            width: 100%;
+            height: 50px;
+        }
+
+        .nameForm::placeholder{
+            color: rgba(83, 83, 83, 0.5);;
+            padding-left: 22px;
+        }
+
+        .cardDatos {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25) !important;
+            border-radius: 10px;
+        }
+
+        .checkboxDatos input{
+            background: #FFFFFF;
+            border: 0.5px solid #B7B7B7 !important;
+            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.25) !important;
+            border-radius: 1px;
+        }
+
+        .checkboxDatos label {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 28px;
+            color: #535353;
+        }
+
+        .trarme {
+            background: #5090FC !important;
+            border-radius: 10px;
+            width: 100%;
+            height: 51px !important;
+            margin-left: 0px;
+        }
+    }
+
+    .formWeb {
+        display: none;
+    }
+}

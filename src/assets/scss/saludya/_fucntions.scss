@@ -1,0 +1,102 @@
+.functionsWeb {
+    display: block;
+    margin-bottom: 115px;
+
+    .functionsTitle {
+        font-family: 'Morebi Rounded Regular', arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #5B8AFA;
+        margin-bottom: 45px;
+        margin-top: 55px;
+    }
+
+    .descriptionFunction {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 28px;
+        color: #535353;
+    }
+
+    .v-list-item__title {
+        font-family: 'Morebi Rounded Regular', arial;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 15px;
+        color: #535353;
+    }
+
+    .v-list-group__header__prepend-icon {
+        display: none;
+    }
+}
+
+.functionsResponsive {
+    display: none;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1199px){
+    .functionsWeb {
+        display: none;
+    }
+
+    .functionsResponsive {
+        display: block;
+
+        .functionsTitle {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            color: #5B8AFA;
+            width: 100%;
+            margin-top: 23px;
+        }
+    
+        .functions {
+            .v-list-group__header__prepend-icon {
+                display: none;
+            }
+    
+            .v-list-item {
+                padding: 0;
+            }
+    
+            .v-list-item__title {
+                align-self: center;
+                font-size: 15px;
+                width: 100%;
+                white-space: normal !important;
+            }
+    
+            .v-list-item {
+                padding: 0;
+                padding-left: 0 !important;
+            }
+        }
+    
+        .descriptionFunction {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 28px;
+            color: #535353;
+        }
+    
+        .v-list-item--active {
+            caret-color: transparent !important;
+            .v-list-item__title {
+                border-bottom: 0.5px solid #4b9afb;
+                padding-bottom: 8px;
+                color: #535353;
+            }
+        }
+    }
+}
+

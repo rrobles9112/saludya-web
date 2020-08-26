@@ -1,0 +1,204 @@
+.registrateWeb {
+    display: block; 
+
+    .titleFirstRegistry {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 124.5px;
+        h1 {
+            b {
+                font-weight: bold;
+                font-size: 59px;
+            }
+        }
+    }
+
+    .descriptionRegistry {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .listCard1 {
+        b {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.registrateResponsive {
+    display: none;
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 1199px){
+    .registrateWeb {
+        display: none;
+    }       
+    .registrateResponsive {
+        display: block;
+            opacity:1;
+            background-image:linear-gradient(184.11deg, #626EFF 10.86%, #2FD1F6 102.73%);;
+            border:0px solid rgba(150.9600019454956, 150.9600019454956, 150.9600019454956, 1);
+            border-radius:10px;
+            clip-path: polygon(0 4.86%, 100% 0%, 100% 100%, 0 100%);
+    
+            .titleRegistry {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-top: 69px;
+                margin-bottom: 15px;
+    
+                .titleRegistryH1 {
+                    font-size: 26px;
+                }
+            }
+    
+            .descriptionRegistry {
+                width: 324px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 26px;
+            }
+    
+            .telemedicinaTitle {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 12px 12px 3px 12px;
+            }
+    
+            .telemedicinaDescription {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+                width: 317px;
+                padding: 3px 12px 0px 12px;
+                margin-bottom: 27px;
+            }
+    
+            .calendaryTitle {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 0px 12px 3px 12px;
+            }
+    
+            .calendaryDescription {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+                width: 317px;
+                padding: 3px 12px 0px 12px;
+                margin-bottom: 27px;
+            }
+    
+            .serviceTitle {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 0px 12px 3px 12px;
+            }
+    
+            .serviceDescription {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+                width: 317px;
+                padding: 3px 12px 0px 12px;
+                margin-bottom: 27px;
+            }
+    
+            .targetTitle {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 0px 12px 3px 12px;
+            }
+    
+            .targetDescription {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+                width: 317px;
+                padding: 0px 12px 0px 12px;
+                margin-bottom: 32px;
+            }
+    
+            .downloadTitle {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 0px 12px 0px 12px;
+                margin-bottom: 31px;
+            }
+    
+            .appleImage {
+                width: 177.75px;
+                height: 58.11px;
+                padding: 0px 12px 0px 12px;
+                margin-bottom: 31px;
+            }
+    
+            .googleImage {
+                width: 177.75px;
+                height: 58.11px;
+                padding: 0px 12px 0px 12px;
+                margin-bottom: 62px;
+            }
+        }    
+}

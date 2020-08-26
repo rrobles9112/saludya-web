@@ -1,0 +1,330 @@
+.plan {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #5B8AFA;
+    margin-top: 55px;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.estandar {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #242424;
+    font-family: 'Morebi Rounded Regular', arial !important;
+}
+
+.ahora {
+    text-decoration: none;
+}
+
+#planes {
+    display: block;
+
+    .firstPlan {
+        width: 100%;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #5B8AFA;
+        margin-bottom: 41px;
+    }
+
+    .planCard {
+        background-color: #fff !important;
+        color: #535353;
+        border-radius: 8px !important;
+        box-shadow: 0px 0px 20px #EFEBEB !important;
+        max-width: 368px;
+        height: 650px;  
+        width: 368px;
+        margin-bottom: 24px;
+        margin-top: 34px;
+
+        .colTitlePlan {
+                margin-top: 24px;
+
+            .titlePlan {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 30px;
+                text-align: center;
+                color: #242424;
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 15px;
+            padding-left: 14px !important;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 15px;
+            margin-top: 18px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 28px;
+            text-align: center;
+            color: #535353;
+        }
+
+        .colcaracteristics {
+            margin-top: 50px;
+
+            .caracteristics {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 28px;
+                text-align: center;
+                color: #535353;
+            }
+        }
+
+        .price {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 36px;
+            text-align: center;
+            color: #4EA8F8;
+            margin-top: 20px;
+            margin-bottom: 24px;
+        }
+
+        .btnSuscribete {
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-transform: capitalize;
+            margin-top: 29px;
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            height: 51px;
+            width: 210px;
+        }
+
+        .colTitular {
+            margin-top: 22px;
+        }
+    }
+}
+
+.v-tooltip__content {
+    background: #DCE9FF;
+
+    .tooltipTitle {
+        font-family: 'Morebi Rounded Regular', arial;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: #535353;
+    }
+    
+    .tooltipDescription {
+        font-family: 'Morebi Rounded Regular', arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: #535353;
+        width: 250px;
+    }
+}
+
+#planesResponsive {
+    display: none;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1193px){
+    #planes {
+        display: none;
+    }
+    
+    #planesResponsive {
+        display: block;
+
+        .firstPlan {
+            width: 100%;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            color: #5B8AFA;
+            margin-bottom: 41px;
+            margin-top: 33px;
+        }
+        .v-carousel__controls {
+            align-items: center;
+            background: transparent;
+            bottom: 0;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            list-style-type: none;
+            position: absolute;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .planes {
+            .theme--dark.v-btn--active:hover::before, .theme--dark.v-btn--active::before {
+                opacity: 1 !important; 
+                background-color: #5B8AFA;
+                color: #fff;
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        .planes {
+
+            .v-window__next {
+                .v-btn {
+                    background: transparent;
+                    margin-right: -26px;
+                }
+
+                i {
+                    font-size: 46px !important;
+                    color:#5B8AFA;
+                }
+            }
+
+            .v-window__prev {
+                .v-btn {
+                    background: transparent;
+                    margin-left: -26px;
+                    color:#5B8AFA;
+                }
+
+                i {
+                    font-size: 46px !important;
+                }
+            }
+
+            .v-carousel__controls__item .v-icon {
+                opacity: 0 !important;
+                color: #5B8AFA !important;
+            }
+        }
+        // .planes >
+
+        // .planes > 
+        .planes > .v-carousel__controls{
+            background: transparent !important
+        }
+
+        .v-btn--active {
+            background: #5B8AFA !important;
+        }
+
+        .v-btn--flat {
+            background: rgba(78, 168, 248, 0.3);
+        }
+
+        .v-btn--icon.v-size--small {
+            height: 15px;
+            width: 15px;
+        }
+
+        .planCard {
+            background-color: #fff !important;
+            color: #535353;
+            border-radius: 8px !important;
+            box-shadow: 0px 0px 20px #EFEBEB !important;
+            max-width: 90%;
+            margin-bottom: 24px;
+
+            .titlePlan {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                color: #242424;
+                margin-top: 18px;
+            }
+
+            ul {
+                list-style: none;
+                margin-top: 15px;
+                padding-left: 14px !important;
+            }
+
+            li {
+                margin-bottom: 10px;
+                font-size: 15px;
+            }
+
+            .caracteristics {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 28px;
+                text-align: center;
+                color: #535353;
+            }
+
+            .price {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 36px;
+                text-align: center;
+                color: #4EA8F8;
+                margin-top: 24px;
+                margin-bottom: 24px;
+            }
+
+            .btnSuscribete {
+                border-radius: 10px;
+                margin-bottom: 40px;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .v-tooltip__content {
+        background: #DCE9FF;
+
+        .tooltipTitle {
+            font-family: 'Morebi Rounded Regular', arial;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            color: #535353;
+        }
+        
+        .tooltipDescription {
+            font-family: 'Morebi Rounded Regular', arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            color: #535353;
+            width: 250px;
+        }
+    }
+}

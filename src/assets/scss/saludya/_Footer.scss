@@ -1,0 +1,162 @@
+.bg {
+    background: #FFFFFF;
+    box-shadow: -6px 9px 44px #EAEAEA !important;
+    border-radius: 8px !important;
+}
+
+.producto {
+    font-family: 'Morebi Rounded Regular', arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: $greyColor;
+    margin-left: -40px;
+}
+
+.espacio {
+    margin-top: 31px;
+}
+
+.termino {
+    margin-left: 144px;
+    margin-top: -48px;
+}
+
+.laberinto {
+    margin-left: 360px;
+    margin-top: -48px;
+}
+
+.funcional {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: $greyColor !important;
+    font-family: 'Morebi Rounded Regular', arial;
+}
+
+#footer {
+    display: block;
+}
+
+#footerResponsive {
+    display: none;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1199px){
+    #footer {
+        display: none;
+    }
+
+    #footerResponsive {
+        display: block;
+        margin-top: -20px;
+
+        .axa {
+            margin-right: 26px;
+        }
+
+        .salud {
+            width: 146px;
+            margin-top: 20px;
+        }
+
+        .mas {
+            margin-right: 25px;
+        }
+
+        .producto {
+            font-family: "Morebi Rounded Regular", arial;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 21px;
+            color: #535353;
+            margin-left: -13px;
+        }
+
+        .bg {
+            color: $greyColor;
+            font-family: 'Morebi Rounded Regular', arial;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 0;
+        }
+
+        .contactanos {
+            max-width: 21%;
+            padding: 0;
+            margin-left: 8px;  
+            
+            .navigate {
+                font-family: 'Morebi Rounded Regular', arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 16px;
+                text-decoration-line: underline;
+                color: #535353;
+            }
+        }
+        
+        .navigate {
+            font-family: "Morebi Rounded Regular", arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+            color: #535353;
+            margin: auto;
+            padding-left: 0% !important;
+            padding-right: 3.5%;
+        }
+        .navigateAv {
+            font-family: "Morebi Rounded Regular", arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+            color: #535353;
+            margin: auto;
+        }
+
+        .terminos {
+            padding: 0;
+            
+            .navigate {
+                font-family: "Morebi Rounded Regular", arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 16px;
+                -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+                color: #535353;
+                margin-left: 11px;
+            }
+        }
+
+        .aviso {
+            .navigate {
+                font-family: "Morebi Rounded Regular", arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 16px;
+                -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+                color: #535353;
+                margin-left: 7px;
+            }
+        }
+    }
+}
