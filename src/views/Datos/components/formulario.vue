@@ -50,6 +50,7 @@
                     <v-col md="12">
                         <label>Dirección</label><br>
                         <input type="text" v-model.trim="user.address" class="nameForm" placeholder="Tu dirección"/>
+                        <small v-if="errorAddress">Ingresa la dirección de tu residencia.</small>
                     </v-col>
                 </v-col>
                 <v-col md="6">
@@ -117,6 +118,7 @@
             <v-col md="12">
                 <label>Dirección</label><br>
                 <input type="text" v-model.trim="user.address" class="nameForm" placeholder="Tu dirección"/>
+                <small v-if="errorAddress">Ingresa la dirección de tu residencia.</small>
             </v-col>
             <v-col md="12" style="margin-bottom: 38px">
                 <v-card class="cardDatos">
@@ -175,9 +177,21 @@ export default {
             }else if(!this.ruleEmail.test(this.user.email)){
                 this.errorLastName = false
                 this.errorEmail = true
+            }else if(this.user.phone < 700000){
+                this.errorEmail = false
+                this.errorPhone = true
+            }else if(this.user.day < 1 || this.user.day > 31 ){
+                this.errorPhone = false
+                this.errorDay = true
             }else if(!this.ruleString.test(this.user.city)){
+                this.errorDay = false
                 this.errorCity = true
-            }else{
+            }else if(!this.user.address){
+                this.errorCity = false
+                this.errorAddress = true
+
+            }
+            else{
                 this.$router.push('/suscribete')
             }
         }
