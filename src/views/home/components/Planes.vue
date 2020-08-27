@@ -1,5 +1,5 @@
 <template>
-    <div style="background: #fafafa">
+    <div style="background: #fafafa" id="producto">
         <v-container id="planes">
             <v-row>
                 <v-col md="12" aling="center" justify="center">
@@ -40,9 +40,9 @@
                                     <span class="titular">{{ slide.caracteristics }}</span>
                                 </v-col>
                                 <h1 class="price">{{ slide.price }}</h1>
-                                <router-link to="/datos"  class="ahora">
-                                    <v-btn class="btnSuscribete" color="#5090FC">¡Suscríbete ahora!</v-btn>
-                                </router-link>
+                                    <a href="/datos" class="ahora">
+                                        <v-btn class="btnSuscribete" color="#5090FC">¡Suscríbete ahora!</v-btn>
+                                    </a>
                             </v-container>
                         </v-card>
                     </v-col>
@@ -77,9 +77,9 @@
                                 </ul>
                                 <span class="caracteristics">{{ slide.caracteristics }}</span>
                                 <h1 class="price">{{ slide.price }}</h1>
-                                <router-link to="/datos">
-                                    <v-btn class="btnSuscribete" color="#5090FC">¡Suscríbete ahora!</v-btn>
-                                </router-link>
+                                    <a href="/datos">
+                                        <v-btn class="btnSuscribete" color="#5090FC">¡Suscríbete ahora!</v-btn>
+                                    </a>
                             </v-container>
                         </v-card>
                     </v-carousel-item>
