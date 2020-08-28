@@ -167,7 +167,7 @@ export default {
         validateInputs(){
 
             console.log(!this.ruleNumber.test(this.user.phone))
-
+            this.$gtag.event('Registro datos de la compra de un plan',{method:'google'})
 
             if(!this.ruleString.test(this.user.name)){
                 this.errorName = true

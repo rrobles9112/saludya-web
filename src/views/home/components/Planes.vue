@@ -41,7 +41,7 @@
                                 </v-col>
                                 <h1 class="price">{{ slide.price }}</h1>
                                     <a href="/datos" class="ahora">
-                                        <v-btn class="btnSuscribete" color="#5090FC">¡Suscríbete ahora!</v-btn>
+                                        <v-btn class="btnSuscribete" color="#5090FC" @click="this.$gtag.event(`Click a suscripción a un plan ${slide.title}`,{ method: 'Google' })">¡Suscríbete ahora!</v-btn>
                                     </a>
                             </v-container>
                         </v-card>
@@ -78,7 +78,7 @@
                                 <span class="caracteristics">{{ slide.caracteristics }}</span>
                                 <h1 class="price">{{ slide.price }}</h1>
                                     <a href="/datos">
-                                        <v-btn class="btnSuscribete" color="#5090FC">¡Suscríbete ahora!</v-btn>
+                                        <v-btn class="btnSuscribete" @click="this.$gtag.event(`Click a suscripción al plan ${slide.title}`,{ method: 'Google' })" color="#5090FC">¡Suscríbete ahora!</v-btn>
                                     </a>
                             </v-container>
                         </v-card>
