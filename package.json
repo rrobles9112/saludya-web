@@ -12,7 +12,9 @@
     "jquery": "^3.5.1",
     "material-design-icons-iconfont": "^5.0.1",
     "vue": "^2.6.11",
+    "vue-analytics-facebook-pixel": "^1.0.1",
     "vue-flux": "^6.2.2",
+    "vue-gtag": "^1.8.0",
     "vue-router": "^3.4.3",
     "vuetify": "^2.2.11"
   },
