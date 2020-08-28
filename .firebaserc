@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "saludya-76cd7"
+    "staging": "saludya-3919d",
+    "default": "saludya-3919d"
   }
 }
