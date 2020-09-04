@@ -168,7 +168,7 @@ export default {
 
             console.log(!this.ruleNumber.test(this.user.phone))
             this.$gtag.event('Registro datos de la compra de un plan',{method:'google'})
-
+            window.fbq('trackCustom','Registro datos de la compra de un plan')
             if(!this.ruleString.test(this.user.name)){
                 this.errorName = true
             }else if(!this.ruleString.test(this.user.lastName)){

@@ -19,7 +19,7 @@
                         </h1>
                     </v-col>
                     <v-col md="12">
-                        <router-link to="/datos"  class="deco" @click="this.$gtag.event('Ver planes de la app', { method: 'Google' })">
+                        <router-link to="/datos"  class="deco" @click="this.$gtag.event('Ver planes de la app', { method: 'Google' }); window.fbq('trackCustom', 'Ver planes de la app');">
                             <v-btn class="buttonCabecera" ><span class="textCabecera">Obtenla gratis por 30 días</span></v-btn>
                         </router-link>
                     </v-col>
